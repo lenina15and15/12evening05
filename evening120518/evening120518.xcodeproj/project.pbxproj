@@ -13,6 +13,7 @@
 		8492A8FD20A792250058D216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492A8FC20A792250058D216 /* Assets.xcassets */; };
 		8492A90020A792250058D216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492A8FE20A792250058D216 /* LaunchScreen.storyboard */; };
 		8492A90C20A795550058D216 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492A90B20A795550058D216 /* LoginViewController.swift */; };
+		8492A90E20A79A9C0058D216 /* LoginService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492A90D20A79A9C0058D216 /* LoginService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		8492A8FF20A792250058D216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8492A90120A792250058D216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8492A90B20A795550058D216 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		8492A90D20A79A9C0058D216 /* LoginService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				8492A90B20A795550058D216 /* LoginViewController.swift */,
+				8492A90D20A79A9C0058D216 /* LoginService.swift */,
 			);
 			name = LoginModule;
 			sourceTree = "<group>";
@@ -166,6 +169,7 @@
 				8492A90C20A795550058D216 /* LoginViewController.swift in Sources */,
 				8492A8FB20A792250058D216 /* evening120518.xcdatamodeld in Sources */,
 				8492A8F320A792250058D216 /* AppDelegate.swift in Sources */,
+				8492A90E20A79A9C0058D216 /* LoginService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

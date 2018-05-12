@@ -15,11 +15,15 @@ class LoginViewController: UIViewController {
     @IBOutlet weak var loginTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
     
+    let loginService = LoginService()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
     }
     
     @IBAction func loginAction(_ sender: UIButton) {
+        let results = loginService.loginUser(self.loginTextField.text, self.passwordTextField.text)
+        print(results)
         print("login")
     }
     
