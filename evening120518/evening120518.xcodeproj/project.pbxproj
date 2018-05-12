@@ -12,6 +12,7 @@
 		8492A8FB20A792250058D216 /* evening120518.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8492A8F920A792250058D216 /* evening120518.xcdatamodeld */; };
 		8492A8FD20A792250058D216 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8492A8FC20A792250058D216 /* Assets.xcassets */; };
 		8492A90020A792250058D216 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8492A8FE20A792250058D216 /* LaunchScreen.storyboard */; };
+		8492A90C20A795550058D216 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492A90B20A795550058D216 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8492A8FC20A792250058D216 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8492A8FF20A792250058D216 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8492A90120A792250058D216 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8492A90B20A795550058D216 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		8492A8F120A792250058D216 /* evening120518 */ = {
 			isa = PBXGroup;
 			children = (
+				8492A90A20A795100058D216 /* LoginModule */,
 				8492A90920A793BF0058D216 /* Storyboard */,
 				8492A90820A793600058D216 /* Resources */,
 			);
@@ -78,6 +81,14 @@
 				8492A8FE20A792250058D216 /* LaunchScreen.storyboard */,
 			);
 			name = Storyboard;
+			sourceTree = "<group>";
+		};
+		8492A90A20A795100058D216 /* LoginModule */ = {
+			isa = PBXGroup;
+			children = (
+				8492A90B20A795550058D216 /* LoginViewController.swift */,
+			);
+			name = LoginModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +163,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8492A90C20A795550058D216 /* LoginViewController.swift in Sources */,
 				8492A8FB20A792250058D216 /* evening120518.xcdatamodeld in Sources */,
 				8492A8F320A792250058D216 /* AppDelegate.swift in Sources */,
 			);
