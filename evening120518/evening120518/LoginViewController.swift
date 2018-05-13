@@ -31,6 +31,8 @@ class LoginViewController: UIViewController {
         print("registration")
     }
     @IBAction func logoutAction(_ sender: UIButton) {
+        let results = loginService.logoutUser()
+        print(results)
         print("logout")
     }
 }

@@ -12,6 +12,7 @@ import Foundation
 class LoginService {
     
     func loginUser(_ login: String?, _ password: String?) -> Bool {
+        saveUser("token")
         return false
     }
     
@@ -20,15 +21,19 @@ class LoginService {
     }
     
     func logoutUser() -> Bool {
+        deleteUser()
         return false
     }
     
-    private func saveUser() {
-        
+    private func saveUser(_ token: String!) {
+        let userDefaults = UserDefaults.standard
+        userDefaults.setValue(token, forKey: "userToken")
+        userDefaults.synchronize()
     }
     
     private func deleteUser() {
-        
+        let userDefaults = UserDefaults.standard
+        userDefaults.removeObject(forKey: "userToken")
     }
     
 }
